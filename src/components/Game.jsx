@@ -2,12 +2,13 @@ import React from 'react'
 import Board from './Board'
 import Timer from './Timer'
 import Person from './Person'
+import Button from './Button'
 
 class Game extends React.Component {
     render() {
       return (
-        <div className="game">
-          <Person name="ewan" />
+        <div className="game">          
+          <Person age={20} />
           <Timer />
           <div className="game-board">
             <Board />
@@ -16,6 +17,7 @@ class Game extends React.Component {
             <div>{/* status */}</div>
             <ol>{/* TODO */}</ol>
           </div>
+          <Button />
         </div>
       );
     }
