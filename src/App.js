@@ -5,12 +5,14 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './pages/home';
 import Detail from './pages/detail';
 import Login from './pages/login';
+import Store from './components/Store'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Game name="ewan"></Game> 
+        <Store></Store>
       </header>
       <div>
         <BrowserRouter>
@@ -22,9 +24,8 @@ function App() {
           <Link to="/detail/5">Detail</Link>
         </BrowserRouter>
       </div>
-      
     </div>
   );
 }
 
-export default App;
+export default App
