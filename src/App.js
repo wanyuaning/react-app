@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Detail from './pages/detail';
 import Login from './pages/login';
 import Store from './components/Store'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           <Link to="/login">Login</Link>
           <Link to="/detail/5">Detail</Link>
         </BrowserRouter>
+      </div>
+      <div>
+        <Form></Form>
       </div>
     </div>
   );
