@@ -7,6 +7,7 @@ import Detail from './pages/detail';
 import Login from './pages/login';
 import Store from './components/Store'
 import Form from './components/Form'
+import Form2 from './components/Form2'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </div>
       <div>
         <Form></Form>
+        <Form2></Form2>
       </div>
     </div>
   );
